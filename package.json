@@ -1,64 +1,19 @@
 {
-  "_args": [
-    [
-      "moco-demo",
-      "/Users/nioky/Desktop/moco-install-demo"
-    ]
-  ],
-  "_from": "moco-demo@*",
-  "_id": "moco-demo@1.0.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/moco-demo",
-  "_nodeVersion": "0.12.7",
-  "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/moco-demo-1.0.0.tgz_1471452078548_0.9433449406642467"
-  },
-  "_npmUser": {
-    "email": "meng.locker@gmail.com",
-    "name": "nioky"
-  },
-  "_npmVersion": "3.3.9",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "moco-demo",
-    "raw": "moco-demo",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "*",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_shasum": "d52fc1f17ba746ae2cb656a1ea801fdcf1e52da8",
-  "_shrinkwrap": null,
-  "_spec": "moco-demo",
-  "_where": "/Users/nioky/Desktop/moco-install-demo",
-  "author": {
-    "name": "momo"
-  },
-  "dependencies": {},
-  "description": "The component system of vue for momo Frontend",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "d52fc1f17ba746ae2cb656a1ea801fdcf1e52da8",
-    "tarball": "https://registry.npmjs.org/moco-demo/-/moco-demo-1.0.0.tgz"
-  },
-  "license": "ISC",
-  "main": "icon.vue",
-  "maintainers": [
-    {
-      "name": "nioky",
-      "email": "meng.locker@gmail.com"
-    }
-  ],
-  "name": "moco-demo",
-  "optionalDependencies": {},
+  "name": "mk-movies",
+  "version": "1.0.0",
+  "description": "momo vue static module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backlost/mk-movies.git"
+  },
+  "author": "meng.xianliang <backlost@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backlost/mk-movies/issues"
+  },
+  "homepage": "https://github.com/backlost/mk-movies#readme"
 }
