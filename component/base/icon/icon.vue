@@ -1,7 +1,6 @@
 <style scoped lang="sass">
-    @import "../scss/variable";
-    @import "../scss/mixin";
-    /*@import "../scss/component";*/
+    @import "../../../style/scss/variable";
+    @import "../../../style/scss/mixin";
     
     .icon {
         float: none;

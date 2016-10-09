@@ -1,7 +1,7 @@
 <style scoped lang="sass">
-    @import "../scss/variable";
-    @import "../scss/mixin";
-    @import "../scss/component";
+    @import "../../../style/scss/variable";
+    @import "../../../style/scss/mixin";
+    @import "../../../style/scss/component";
 
     $primary-bgc:#3462ff;
     $primary-color:#fff;
