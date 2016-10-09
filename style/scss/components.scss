@@ -1,0 +1,142 @@
+.pull-right{
+    float: right;
+}
+
+.border-bottom{
+    overflow: auto;
+    background-position: left bottom;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,transparent),color-stop(0.5,#f0f0f0));
+    background-image: linear-gradient(linear,left top,left bottom,color-stop(0.5,transparent),color-stop(0.5,#f0f0f0));
+    background-repeat: repeat-x;
+    background-size: 100% 1px;
+}
+
+.border-top{
+    background-image: linear-gradient(180deg, #f0f0f0, #f0f0f0 50%, transparent 50%);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.border-left{
+    overflow: auto;
+    background-position: left top;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,transparent),color-stop(0.5,#f0f0f0));
+    background-image: linear-gradient(linear,left top,left bottom,color-stop(0.5,transparent),color-stop(0.5,#f0f0f0));
+    background-repeat: repeat-y;
+    background-size: 1px 100%;
+}
+
+.border-right{
+    overflow: auto;
+    background-position: right top;
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(0.5,transparent),color-stop(0.5,#f0f0f0));
+    background-image:linear-gradient(linear,left top,right top,color-stop(0.5,transparent),color-stop(0.5,#f0f0f0));
+    background-repeat: repeat-y;
+    background-size: 1px 100%;
+}
+
+// .arrow{
+//     &:after{
+//         content: '';
+//         width: shift(12);
+//         height: shift(12);
+//         border: shift(4) solid rgba(200,200,200,0.5);
+//         border-width: 0 shift(4) shift(4) 0;
+//         transform: rotate(-45deg);
+//         -webkit-transform: rotate(-45deg);
+//         display: inline-block;
+//         position: relative;
+
+//     }
+// }
+
+// .arrow-down{
+//     &:after{
+//         bottom: shift(3);
+//         transform: rotate(45deg);
+//         -webkit-transform: rotate(45deg);
+
+//     }
+// }
+
+// .player-sex-age-box{
+//     background-color: #ffa5ba;
+//     display: block;
+//     height: shift(24);
+//     // line-height: 0.18rem;
+//     line-height: shift(24);
+//     color: #FFF;
+//     float: left;
+//     padding: 0rem shift(9);
+//     border-radius: shift(2);
+//     margin-right: shift(4);
+//     .player-sex{
+//         height:shift(15);
+//         line-height: shift(15);
+//         vertical-align: middle;
+//         float: left;
+//         margin-top: shift(4)
+//     }
+
+//     .player-age{
+//         // line-height: 0.2rem;
+//         line-height: shift(20);
+//         height: shift(20);
+//         font-size: shift(20);
+//         margin-left: shift(6);
+//         vertical-align: middle;
+//         float: left;
+//         padding-top: shift(2);
+//     }
+// }
+// .male{
+//     background-color: #97bcf0;
+// }
+
+
+
+// .status-wrapper {
+//     text-align: center;
+//     height: 100%;
+//     .icon-no-result-status {
+//         background: url("https://s.momocdn.com/w/u/img/2016/04/28/1461816721997-empty-box.png")  no-repeat;
+//         display: inline-block;
+//         width: shift(150);
+//         height: shift(101);
+//         float: none;
+//         background-size: 100% auto;
+//         margin-right: shift(0);
+//     }
+//     .icon-wrapper {
+//         padding-top: shift(256);
+//         margin-bottom: shift(50);
+//     }
+//     .status-title {
+//         padding: 0 shift(30);
+//         line-height: shift(50);
+//         font-size: shift(30);
+//         color: #5a5a5a;
+//     }
+//     .status-content {
+//         padding: 0 shift(30);
+//         color: #aaa;
+//         font-size: shift(28);
+//     }
+// }
+// .highlight-font{
+//     color: $momo-blue;
+// }
+
+// .slide-up-transition {
+//     transition: all 0.3s ease;
+//     transform:translate3d(0,0,0);
+//     opacity:1;
+// }
+
+// /* .expand-enter 定义进入的开始状态 */
+// /* .expand-leave 定义离开的结束状态 */
+// .slide-up-enter, .slide-up-leave {
+//     transform:translate3d(0,100px,0);
+//     opacity: 0;
+// }

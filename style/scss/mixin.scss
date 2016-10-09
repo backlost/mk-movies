@@ -1,0 +1,7 @@
+$base-size:32;
+
+@function shift($size) {
+    @return $size/$base-size+rem;
+}
+
+*,a,img{ -webkit-tap-highlight-color:rgba(0,0,0,0) !important; }
